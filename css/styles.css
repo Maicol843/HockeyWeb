@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.contenedor-1, .contenedor-2{
+    display: flex;
+}
+
+.logo, .imagen-1{
+    width: 12vw;
+    margin: 2%;
+}
+
+h1, nav{
+    margin: 1%;
+    padding-top: 2%;
+}
+
+a{
+    padding-right: 2%;
+}
+
+.contenedor-3{
+    padding-left: 3%;
+}
+
+h3, h4, pre{
+    padding-top: 1%;
+}
+
+h4, pre{
+    padding-left: 3%;
+}
+
+.active{
+    color:black;
+}
