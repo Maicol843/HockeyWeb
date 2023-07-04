@@ -1,3 +1,4 @@
+/*General: margen, padding y ancho de la pagina en general*/
 *{
     margin: 0;
     padding: 0;
@@ -8,16 +9,19 @@
     display: flex;
 }
 
+/*Las imágenes de las paginas: se modifico el ancho y el margen*/
 .logo, .imagen-1{
     width: 12vw;
     margin: 2%;
 }
 
+/*Título y menú de navegación*/
 h1, nav{
     margin: 1%;
     padding-top: 2%;
 }
 
+/*Enlaces: se modifico el espacio derecho entre el borde y el contenido*/
 a{
     padding-right: 2%;
 }
@@ -26,6 +30,7 @@ a{
     padding-left: 3%;
 }
 
+/*Textos: se modificaron el espacio superior de los títulos y párrafo*/
 h3, h4, pre{
     padding-top: 1%;
 }
@@ -34,6 +39,7 @@ h4, pre{
     padding-left: 3%;
 }
 
+/*Cambio de color del enlace*/
 .active{
     color:black;
 }
