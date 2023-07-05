@@ -43,3 +43,18 @@ h4, pre{
 .active{
     color:black;
 }
+
+/*-----about.html-----*/
+.imagen-2{
+    width: 12vw;
+    height: 12vw;
+    margin: 2%;
+}
+
+.contenedor-3 pre{
+    padding-left: 0;
+}
+
+.contenedor-3 h3{
+    padding-top: 2%;
+}
