@@ -4,6 +4,7 @@
     padding: 0;
     width: 100vw;
     font-family: 'Roboto';
+    background-color:black;
 }
 
 .contenedor-1, .contenedor-2{
@@ -17,6 +18,18 @@
 }
 
 /*Título y menú de navegación*/
+h1, nav, h3{
+    color: yellow;
+}
+
+h4{
+    color: cadetblue;
+}
+
+pre{
+    color:white;
+}
+
 h1, nav{
     margin: 1%;
     padding-top: 2%;
@@ -25,6 +38,8 @@ h1, nav{
 /*Enlaces: se modifico el espacio derecho entre el borde y el contenido*/
 a{
     padding-right: 2%;
+    text-decoration: none;
+    color: rgb(172, 172, 172);
 }
 
 .contenedor-Home{
@@ -42,7 +57,7 @@ a{
 
 /*Cambio de color del enlace*/
 .active{
-    color:black;
+    color:aquamarine;
 }
 
 /*-----about.html-----*/
@@ -73,5 +88,5 @@ a{
 }
 
 u{
-    color:blue;
+    color:rgb(177, 177, 59);
 }
